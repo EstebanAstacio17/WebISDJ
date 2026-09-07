@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAA7" />
+      <stop offset="25%" stop-color="#F3C644" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="75%" stop-color="#AA7C11" />
+      <stop offset="100%" stop-color="#734E05" />
+    </linearGradient>
+
+    <linearGradient id="goldLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5D1" />
+      <stop offset="50%" stop-color="#E5BE3E" />
+      <stop offset="100%" stop-color="#996E0D" />
+    </linearGradient>
+
+    <linearGradient id="sunDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A3F45" />
+      <stop offset="50%" stop-color="#342B30" />
+      <stop offset="100%" stop-color="#211A1E" />
+    </linearGradient>
+
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE57F" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#F59E0B" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.25" flood-color="#000" />
+    </filter>
+
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Arc Path for Text -->
+    <path id="textArc" d="M 90 280 A 210 210 0 0 1 510 280" fill="none" />
+  </defs>
+
+  <!-- Arched Title "IGLESIA SOL DE JUSTICIA" -->
+  <g font-family="'Cinzel', 'Playfair Display', 'Georgia', serif" font-weight="900" font-size="34" letter-spacing="4">
+    <text fill="#1E293B" filter="url(#dropShadow)">
+      <textPath href="#textArc" startOffset="50%" text-anchor="middle">
+        IGLESIA SOL DE JUSTICIA
+      </textPath>
+    </text>
+  </g>
+
+  <!-- Sun Rays & Glow Background (Sol de Justicia) -->
+  <g transform="translate(300, 360)">
+    <!-- Radial Sun Glow -->
+    <circle r="140" fill="url(#sunGlow)" />
+
+    <!-- Outer Multi-point Geometric Sun Burst -->
+    <g fill="url(#sunDark)" opacity="0.9" filter="url(#dropShadow)">
+      <!-- 12-pointed multi-faceted sun polygon -->
+      <polygon points="0,-130 35,-95 92,-92 95,-35 130,0 95,35 92,92 35,95 0,130 -35,95 -92,92 -95,35 -130,0 -95,-35 -92,-92 -35,-95" />
+      <polygon points="0,-120 40,-75 110,-60 85,-10 115,45 65,75 50,120 0,90 -50,120 -65,75 -115,45 -85,-10 -110,-60 -40,-75" transform="rotate(15)" opacity="0.6" fill="#5B4A52" />
+    </g>
+
+    <!-- Yellow / Gold Aura Ring -->
+    <circle r="75" fill="none" stroke="url(#goldGrad)" stroke-width="8" opacity="0.85" />
+    <circle r="85" fill="none" stroke="#FDE68A" stroke-width="2" stroke-dasharray="4 6" opacity="0.9" />
+  </g>
+
+  <!-- Open Bible Illustration -->
+  <g transform="translate(300, 395)" filter="url(#dropShadow)">
+    <!-- Bible Base / Dark Cover Shadow -->
+    <path d="M -160 30 Q -80 -15 0 20 Q 80 -15 160 30 L 140 70 Q 70 30 0 55 Q -70 30 -140 70 Z" fill="#2A1B16" />
+    
+    <!-- Outer Pages (White/Cream) -->
+    <path d="M -155 20 Q -80 -25 0 10 Q 80 -25 155 20 L 145 55 Q 75 15 0 42 Q -75 15 -145 55 Z" fill="#F8F6F0" stroke="#423429" stroke-width="3" stroke-linejoin="round" />
+    
+    <!-- Top Pages Layer -->
+    <path d="M -150 15 Q -75 -28 0 5 L 0 38 Q -75 5 -140 48 Z" fill="#FFFFFF" />
+    <path d="M 150 15 Q 75 -28 0 5 L 0 38 Q 75 5 140 48 Z" fill="#FAFAF7" />
+
+    <!-- Page Center Spine & Lines -->
+    <path d="M 0 5 L 0 42" stroke="#B89B72" stroke-width="2.5" />
+    <path d="M -130 10 Q -75 -18 -15 8" fill="none" stroke="#D1C7B7" stroke-width="1.5" />
+    <path d="M -130 20 Q -75 -8 -15 18" fill="none" stroke="#D1C7B7" stroke-width="1.5" />
+    <path d="M 130 10 Q 75 -18 15 8" fill="none" stroke="#D1C7B7" stroke-width="1.5" />
+    <path d="M 130 20 Q 75 -8 15 18" fill="none" stroke="#D1C7B7" stroke-width="1.5" />
+
+    <!-- Red Ribbon Bookmark -->
+    <path d="M 0 25 Q 15 50 25 90 L 15 95 L 0 75 L -10 92 L -18 86 Q -5 45 0 25 Z" fill="#B91C1C" filter="url(#dropShadow)" />
+    <!-- Gold Ribbon Tassel Accent -->
+    <path d="M 0 35 Q 35 60 45 80 L 35 85 Q 25 65 0 42 Z" fill="#D97706" opacity="0.8" />
+  </g>
+
+  <!-- Central Gothic Monogram "RJF" in High-Grade Beveled Gold -->
+  <g transform="translate(300, 275)" filter="url(#dropShadow)">
+    <!-- Outer Glow for contrast -->
+    <g fill="url(#goldLight)" stroke="#5B3E06" stroke-width="4" stroke-linejoin="round">
+      <!-- Stylized Gothic Letter 'R' (Left) -->
+      <path d="M -90 40 L -65 -60 Q -50 -75 -20 -70 Q 0 -65 0 -35 Q 0 -10 -25 -2 L 5 70 L -25 70 L -45 5 L -60 5 L -65 65 L -95 65 Z M -60 -15 L -35 -15 Q -15 -15 -15 -35 Q -15 -52 -35 -52 L -55 -52 Z" />
+
+      <!-- Stylized Central Gothic Letter 'J' / Cross Flourish -->
+      <path d="M -15 -75 L 35 -75 L 35 -55 L 15 -55 L 15 35 Q 15 75 -25 75 Q -55 75 -60 50 L -35 45 Q -32 55 -20 55 Q -5 55 -5 30 L -5 -55 L -20 -55 Z" />
+
+      <!-- Stylized Gothic Letter 'F' (Right) -->
+      <path d="M 20 -75 L 85 -75 L 85 -55 L 45 -55 L 45 -20 L 75 -20 L 75 0 L 45 0 L 40 65 L 15 65 L 20 -75 Z" />
+    </g>
+
+    <!-- Bevel & Highlights (Gleam overlay) -->
+    <g fill="url(#goldGrad)" opacity="0.95">
+      <path d="M -85 35 L -63 -55 Q -48 -68 -22 -65 Q -5 -60 -5 -35 Q -5 -12 -28 -5 L -2 65 L -20 65 L -42 2 L -58 2 L -63 60 L -88 60 Z M -58 -18 L -35 -18 Q -18 -18 -18 -35 Q -18 -48 -35 -48 L -53 -48 Z" />
+      <path d="M -10 -70 L 30 -70 L 30 -58 L 12 -58 L 12 35 Q 12 70 -25 70 Q -48 70 -52 52 L -35 48 Q -30 52 -20 52 Q -2 52 -2 30 L -2 -58 L -10 -58 Z" />
+      <path d="M 25 -70 L 80 -70 L 80 -58 L 42 -58 L 42 -22 L 70 -22 L 70 -3 L 42 -3 L 38 60 L 20 60 L 25 -70 Z" />
+    </g>
+
+    <!-- Brilliant White Sparkle Highlights -->
+    <g fill="#FFFFFF" opacity="0.8">
+      <circle cx="-60" cy="-60" r="3" />
+      <circle cx="-15" cy="-70" r="2.5" />
+      <circle cx="80" cy="-70" r="3" />
+      <circle cx="0" cy="-35" r="2.5" />
+    </g>
+  </g>
+</svg>

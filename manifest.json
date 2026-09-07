@@ -1,0 +1,17 @@
+{
+  "name": "Iglesia Sol de Justicia",
+  "short_name": "Sol de Justicia",
+  "description": "Portal Oficial de la Iglesia Cristiana Sol de Justicia. Horarios, Cultos en Vivo, Oración, Donaciones y Ministerios.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0A1128",
+  "theme_color": "#D4AF37",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Página Principal / Inicio -->
+  <url>
+    <loc>https://iglesiasoldejusticia.org/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://iglesiasoldejusticia.org/assets/logos/logo-sol-de-justicia.svg</image:loc>
+      <image:title>Logo Oficial Iglesia Sol de Justicia Santo Domingo</image:title>
+      <image:caption>Iglesia Cristiana Sol de Justicia en Santo Domingo, República Dominicana</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://iglesiasoldejusticia.org/assets/images/hero-worship.jpg</image:loc>
+      <image:title>Culto de Adoración en Santo Domingo</image:title>
+    </image:image>
+  </url>
+
+  <!-- Sección Conócenos / Soy Nuevo -->
+  <url>
+    <loc>https://iglesiasoldejusticia.org/#conocenos</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección Qué Creemos / Confesión de Fe -->
+  <url>
+    <loc>https://iglesiasoldejusticia.org/#creencias</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección Sermones y Prédicas -->
+  <url>
+    <loc>https://iglesiasoldejusticia.org/#sermones</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Ministerios -->
+  <url>
+    <loc>https://iglesiasoldejusticia.org/#ministerios</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Horarios y Cultos en Santo Domingo -->
+  <url>
+    <loc>https://iglesiasoldejusticia.org/#horarios</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección Donaciones y Ofrendas -->
+  <url>
+    <loc>https://iglesiasoldejusticia.org/#ofrendar</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Solicitudes de Oración -->
+  <url>
+    <loc>https://iglesiasoldejusticia.org/#oracion</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Ubicación y Contacto -->
+  <url>
+    <loc>https://iglesiasoldejusticia.org/#contacto</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

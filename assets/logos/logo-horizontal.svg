@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 110" width="100%" height="100%">
+  <defs>
+    <linearGradient id="navGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#C88A1F" />
+      <stop offset="100%" stop-color="#8F5B09" />
+    </linearGradient>
+    <filter id="navGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15" flood-color="#000" />
+    </filter>
+  </defs>
+
+  <!-- Left Icon Emblem (Symbol) -->
+  <g transform="translate(55, 55) scale(0.42)">
+    <!-- Sun Glow -->
+    <circle r="100" fill="#FEF3C7" opacity="0.9" />
+    <!-- Sun Star -->
+    <polygon points="0,-110 30,-80 80,-75 80,-30 110,0 80,30 80,75 30,80 0,110 -30,80 -80,75 -80,-30 -110,0 -80,-30 -80,-75 -30,-80" fill="#451A03" />
+    <circle r="60" fill="none" stroke="url(#navGoldGrad)" stroke-width="6" />
+
+    <!-- Open Bible -->
+    <g transform="translate(0, 25)">
+      <path d="M -90 15 Q -45 -15 0 8 Q 45 -15 90 15 L 80 40 Q 40 12 0 30 Q -40 12 -80 40 Z" fill="#FFFFFF" stroke="#333" stroke-width="2" />
+      <path d="M 0 10 L 0 30" stroke="#D97706" stroke-width="2" />
+      <path d="M 0 18 Q 10 35 15 60 L 5 50 L -2 60 Q -5 35 0 18 Z" fill="#DC2626" />
+    </g>
+
+    <!-- Monogram RJF -->
+    <g transform="translate(0, -35) scale(0.75)" fill="url(#navGoldGrad)" stroke="#451A03" stroke-width="2">
+      <path d="M -60 25 L -45 -40 Q -35 -50 -15 -45 Q 0 -40 0 -20 Q 0 -5 -15 0 L 5 45 L -15 45 L -30 5 L -40 5 L -45 45 L -65 45 Z" />
+      <path d="M -10 -50 L 25 -50 L 25 -35 L 10 -35 L 10 20 Q 10 50 -15 50 Q -35 50 -40 35 L -25 30 Q -20 35 -12 35 Q -2 35 -2 20 L -2 -35 L -10 -35 Z" />
+      <path d="M 15 -50 L 60 -50 L 60 -35 L 30 -35 L 30 -12 L 52 -12 L 52 2 L 30 2 L 28 45 L 10 45 Z" />
+    </g>
+  </g>
+
+  <!-- Church Brand Typography for Warm Light Backgrounds -->
+  <g transform="translate(125, 0)">
+    <!-- Subtitle / Prefix -->
+    <text x="0" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="12" fill="#92400E" letter-spacing="3.5">
+      MINISTERIO CRISTIANO
+    </text>
+
+    <!-- Main Name -->
+    <text x="0" y="68" font-family="'Cinzel', 'Playfair Display', serif" font-weight="900" font-size="28" fill="#241A14" letter-spacing="2">
+      SOL DE JUSTICIA
+    </text>
+
+    <!-- Biblical Motto -->
+    <text x="0" y="90" font-family="'Outfit', sans-serif" font-weight="600" font-size="11" fill="#7D6B5F" letter-spacing="1.5">
+      MALAQUÍAS 4:2 &bull; TEMPLO CENTRAL
+    </text>
+  </g>
+</svg>

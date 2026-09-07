@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="symGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3B0" />
+      <stop offset="30%" stop-color="#F3C644" />
+      <stop offset="70%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#8C5E06" />
+    </linearGradient>
+    <radialGradient id="symGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE047" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#F59E0B" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#B45309" stop-opacity="0" />
+    </radialGradient>
+    <filter id="symShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.35" flood-color="#000" />
+    </filter>
+  </defs>
+
+  <circle cx="160" cy="160" r="140" fill="url(#symGlow)" />
+
+  <!-- Sunburst -->
+  <g transform="translate(160, 160)" fill="#2E2429" stroke="url(#symGold)" stroke-width="2" filter="url(#symShadow)">
+    <polygon points="0,-120 30,-90 85,-85 90,-30 120,0 90,30 85,85 30,90 0,120 -30,90 -85,85 -90,30 -120,0 -90,-30 -85,-85 -30,-90" />
+    <circle r="65" fill="none" stroke="url(#symGold)" stroke-width="8" />
+    <circle r="75" fill="none" stroke="#FEF08A" stroke-width="2" stroke-dasharray="4 6" opacity="0.9" />
+  </g>
+
+  <!-- Open Bible -->
+  <g transform="translate(160, 195)" filter="url(#symShadow)">
+    <path d="M -115 15 Q -60 -15 0 10 Q 60 -15 115 15 L 105 45 Q 55 12 0 32 Q -55 12 -105 45 Z" fill="#FFFFFF" stroke="#334155" stroke-width="2.5" />
+    <path d="M 0 10 L 0 32" stroke="#D97706" stroke-width="2" />
+    <path d="M 0 18 Q 12 40 18 70 L 8 60 L 0 72 L -8 60 Q -2 40 0 18 Z" fill="#DC2626" />
+  </g>
+
+  <!-- Monogram RJF -->
+  <g transform="translate(160, 120)" fill="url(#symGold)" stroke="#451A03" stroke-width="2.5" filter="url(#symShadow)">
+    <path d="M -65 25 L -50 -45 Q -40 -55 -15 -50 Q 0 -45 0 -22 Q 0 -6 -18 0 L 5 48 L -15 48 L -32 5 L -42 5 L -48 48 L -70 48 Z" />
+    <path d="M -10 -55 L 25 -55 L 25 -40 L 10 -40 L 10 22 Q 10 52 -18 52 Q -38 52 -42 35 L -25 30 Q -20 38 -12 38 Q -2 38 -2 22 L -2 -40 L -10 -40 Z" />
+    <path d="M 15 -55 L 62 -55 L 62 -40 L 32 -40 L 32 -14 L 54 -14 L 54 0 L 32 0 L 30 48 L 10 48 Z" />
+  </g>
+</svg>
